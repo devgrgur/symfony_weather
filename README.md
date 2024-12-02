@@ -1,3 +1,9 @@
-# Hello
+# Symfony Weather
 
 A symfony weather application
+
+# Setup
+
+- docker compose build --no-cache
+- docker compose up --pull always -d --wait
+- docker compose down --remove-orphans
