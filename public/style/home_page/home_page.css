@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url("/public/fonts/HelveticaNeueBlack.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: white;
+    height: 100vh;
+    font-family: Helvetica, serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.data-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0;
+    padding-top: 30rem;
+}
+
+.text-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.primary_text {
+    font-size: 4rem;
+    color: cornflowerblue;
+}
+
+.secondary_text {
+    font-size: 1rem;
+    color: gray;
+}
