@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Controller;
+namespace App\Controller\HomePage;
 
-use App\DTO\WeatherRequestDTO;
+use App\DTO\Weather\WeatherRequestDTO;
 use App\Service\Weather\WeatherApiServiceInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;

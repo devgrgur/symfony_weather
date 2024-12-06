@@ -2,7 +2,7 @@
 
 namespace App\Service\Weather;
 
-use App\DTO\WeatherRequestDTO;
+use App\DTO\Weather\WeatherRequestDTO;
 
 interface WeatherApiServiceInterface
 {

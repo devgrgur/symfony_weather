@@ -2,14 +2,8 @@
 
 namespace App\Service\Weather;
 
-use App\DTO\WeatherRequestDTO;
+use App\DTO\Weather\WeatherRequestDTO;
 use App\Service\Weather\Builder\WeatherRequestQueryBuilderInterface;
-use Symfony\Component\Serializer\SerializerInterface;
-use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
-use Symfony\Contracts\HttpClient\Exception\DecodingExceptionInterface;
-use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
-use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
-use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 class WeatherApiService implements WeatherApiServiceInterface
